@@ -8,6 +8,6 @@
     You have <span id="span_science"></span> science.
   </body>
   <button>
-   onClick="science(1)"
+   onClick="sciclick(1)"
   </button> 
 </html>
