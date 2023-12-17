@@ -1,4 +1,4 @@
 var science = 0;
-number){
+function sciclick(number){
     science = science + number;
 };
