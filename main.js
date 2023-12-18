@@ -8,7 +8,7 @@ function buy1(){
     var buy1Cost = Math.floor(10 * Math.pow(1.1,skimdata));     
     if(science >= buy1Cost){                                   
         buy1 = buy1 + 1;                                   
-    	science = science - buy1Cost;                          
+    	science = science - sciCost;                          
         document.getElementById('buy1').innerHTML = buy1;  
         document.getElementById('science').innerHTML = science;  
     };
