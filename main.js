@@ -23,7 +23,7 @@ function buy1(){
         document.getElementById('science').innerHTML = science;  
     };
     var nextCost = Math.floor(10 * Math.pow(1.1,skimdata));       
-    document.getElementById('buy1Cost').innerHTML = nextCost;
+    document.getElementById('buy1Cost').innerHTML = nextCost;}
 function buy1Cost() {return 10 * 1.1 ** skimdata}
 
 window.setInterval(function(){
