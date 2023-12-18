@@ -1,3 +1,8 @@
+//science: base currency
+//sciCost: cost of science needed for buyable
+//skimdata: first buyable
+//buy1cost: first buyable cost
+//nextcost: next cost
 var science = 0;
 function sciclick(){
     science = science + 1;
