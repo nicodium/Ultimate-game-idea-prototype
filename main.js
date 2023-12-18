@@ -7,13 +7,14 @@ var skimdata = 0;
 function buy1(){
     var buy1Cost = Math.floor(10 * Math.pow(1.1,skimdata));     
     if(science >= buy1Cost){                                   
-        buy1 = buy1 + 1;                                   
+        skimdata = skimdata + 1;                                   
     	science = science - sciCost;                          
-        document.getElementById('buy1').innerHTML = buy1;  
+        document.getElementById('buy1').innerHTML = skimdata;  
         document.getElementById('science').innerHTML = science;  
     };
     var nextCost = Math.floor(10 * Math.pow(1.1,skimdata));       
-    document.getElementById('buy1Cost').innerHTML = nextCost;  
+    document.getElementById('buy1Cost').innerHTML = nextCost;
+}
 
 window.setInterval(function(){
 	
