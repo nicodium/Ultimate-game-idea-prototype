@@ -1,6 +1,6 @@
 var science = 0;
-function sciclick(number){
-    science = science + number;
+function sciclick(1){
+    science = science + 1;
     document.getElementById("science").innerHTML = science;
 };
 var skimdata = 0;
@@ -17,7 +17,7 @@ function buy1(){
 
 window.setInterval(function(){
 	
-	sciclick(numer);
+	sciclick(1);
 	
 }, 1000);
 
