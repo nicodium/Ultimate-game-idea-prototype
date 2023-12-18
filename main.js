@@ -8,6 +8,11 @@ function sciclick(){
     science = science + 1;
     document.getElementById("science").innerHTML = science;
 };
+cons docObj = {
+  buy1:document.getElementById('buy1'),
+  science:document.getElementById('science'),
+  buy1Cost:document.getElementById('buy1Cost')
+}
 var skimdata = 0;
 function buy1(){
     var buy1Cost = Math.floor(10 * Math.pow(1.1,skimdata));     
