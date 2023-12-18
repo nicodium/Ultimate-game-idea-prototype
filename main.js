@@ -1,5 +1,5 @@
 var science = 0;
-function sciclick(1){
+function sciclick(){
     science = science + 1;
     document.getElementById("science").innerHTML = science;
 };
