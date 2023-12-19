@@ -11,7 +11,8 @@ function sciclick(){
 cons docObj = {
   buy1:document.getElementById('buy1'),
   science:document.getElementById('science'),
-  buy1Cost:document.getElementById('buy1Cost')
+  buy1Cost:document.getElementById('buy1Cost'),
+  sciclick:document.getElementById('sciclick')
 }
 var skimdata = 0;
 function buy1(){
