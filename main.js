@@ -14,8 +14,8 @@ const docObj = {
   buy1Cost:document.getElementById('buy1Cost'),
   sciclick:document.getElementById('sciclick')
 }
-var skimdata = 0;
-function buy1(){
+var buy1 = 0;
+function skimdata(){
     var buy1Cost = Math.floor(10 * Math.pow(1.1,skimdata));     
     if(science >= buy1Cost){                                   
         skimdata = skimdata + 1;                                   
